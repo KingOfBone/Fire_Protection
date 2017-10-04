@@ -1,0 +1,53 @@
+div.pager {
+    text-align: center;
+margin: 1em 0px;
+
+}
+
+div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: #CCCCCC;
+    color: #000;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+    background: #4C9ED9;
+    color: #fff !important;
+}
+.printposisi{float: right;
+margin: -94px 14px 0 0;}
+
+
+
+div.pager a {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: #CCCCCC;
+    color: #000;
+    margin-right: 0.5em;
+}
+div.pager a:hover {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+    background: #4C9ED9;
+    color: #fff;
+    margin-right: 0.5em;
+}
+div.pager a.active {
+    background: #4C9ED9;
+    color: #fff !important;
+}
